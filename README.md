@@ -37,8 +37,8 @@ Visually, SOFTNet activation units shows our intuition to concatenate the optica
 The complete code is shown the in Jupyter Notebook script for reader to have a better understanding.
 
 <b>Step 1)</b> The datasets, CAS(ME)<sup>2</sup> (CASME_sq) and SAMM Long Videos (SAMMLV) obtained are required to placed in the structure as follows:
->├─Extraction_Preprocess <br>
->├─SOFTNet_Spotting <br>
+>├─Extraction_Preprocess.ipynb <br>
+>├─SOFTNet_Spotting.ipynb <br>
 >├─SOFNet_Weights <br>
 >├─Utils <br>
 >├─CASME_sq <br>
