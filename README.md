@@ -37,7 +37,10 @@ Visually, SOFTNet activation units shows our intuition to concatenate the optica
 The complete code is shown the in Jupyter Notebook script for reader to have a better understanding.
 
 <b>Step 1)</b> The datasets, CAS(ME)<sup>2</sup> (CASME_sq) and SAMM Long Videos (SAMMLV) obtained are required to placed in the structure as follows:
-
+>├─Extraction_Preprocess <br>
+>├─SOFTNet_Spotting <br>
+>├─SOFNet_Weights <br>
+>├─Utils <br>
 >├─CASME_sq <br>
 >>├─CAS(ME)^2code_final.xlsx <br>
 >>├─cropped <br>
@@ -51,14 +54,14 @@ The complete code is shown the in Jupyter Notebook script for reader to have a b
 
 <b>Step 2)</b> Feature Extraction and Pre-processing
 
-<blockquote> Open the Extraction_Pre-process.ipynb and run the codes follow the instruction given inside. </blockquote>
+<blockquote> Open the Extraction_Preprocess.ipynb and run the codes follow the instruction given inside. </blockquote>
 
 <b>Step 3)</b> SOFTNet and Spotting
 
-<blockquote> Open the SOFTNet_Spot.ipynb and run the codes follow the instruction given inside. The evaluation for TP, FP, FN, F1-Score is returned at the last piece of code. </blockquote>
+<blockquote> Open the SOFTNet_Spotting.ipynb and run the codes follow the instruction given inside. The evaluation for TP, FP, FN, F1-Score is returned at the last piece of code. </blockquote>
 
 ### Note for pre-trained weights
-The pre-trained weights for CAS(ME)<sup>2</sup >and SAMM Long Videos with macro and micro-expression separately are located under folder SOFTNet_Weights. You may load the weights at SOFTNet_Spot.ipynb for evaluation. However, the result is slightly different with the result given in table shown above.
+The pre-trained weights for CAS(ME)<sup>2</sup >and SAMM Long Videos with macro and micro-expression separately are located under folder SOFTNet_Weights. You may load the weights at SOFTNet_Spotting.ipynb for evaluation. However, the result is slightly different with the result given in table shown above.
 
 
 
