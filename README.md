@@ -55,7 +55,7 @@ The complete code is shown the in Jupyter Notebook script for reader to have a b
 
 <b>Step 3)</b> SOFTNet and Spotting
 
-<blockquote> Open the SOFTNet_Spot.ipynb and run the codes follow the instruction given inside. The evaluation is returned at the last line of code. </blockquote>
+<blockquote> Open the SOFTNet_Spot.ipynb and run the codes follow the instruction given inside. The evaluation for TP, FP, FN, F1-Score is returned at the last piece of code. </blockquote>
 
 ### Note for pre-trained weights
 The pre-trained weights for CAS(ME)<sup>2</sup >and SAMM Long Videos with macro and micro-expression separately are located under folder SOFTNet_Weights. You may load the weights at SOFTNet_Spot.ipynb for evaluation. However, the result is slightly different with the result given in table shown above.
