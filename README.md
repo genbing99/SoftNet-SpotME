@@ -13,7 +13,7 @@ Mainly four phases involved:
 </ul>
 
 ## Training
-Tensorflow and keras are used in the experiment. Two dataset with macro- and micro-expression are used for training and testing purposes:
+Tensorflow and Keras are used in the experiment. Two datasets with macro- and micro-expression are used for training and testing purposes:
 
 CAS(ME)<sup>2</sup> - http://fu.psych.ac.cn/CASME/cas(me)2-en.php
 
@@ -29,12 +29,12 @@ Samples visual results for SOFTNet: </br></br>
 <img src='images/teaser.PNG' width=500 height=200>
 
 ## Discussion
-The proposed SOFTNet approach outperforms other methods on CAS(ME)<sup>2</sup> while ranked second on SAMM Long Videos. To better justify the effectiveness of SOFTNet approach, we experimented a similar framework but without SOFTNet, the results show that the framework with SOFTNet is much more efficient overall.
+The proposed SOFTNet approach outperforms other methods on CAS(ME)<sup>2</sup> while ranked second on SAMM Long Videos. To better justify the effectiveness of the SOFTNet approach, we experimented with a similar framework but without SOFTNet, the results show that the framework with SOFTNet is much more efficient overall.
 
-Visually, SOFTNet activation units shows our intuition to concatenate the optical flow features (u, v, ε) from three-stream. The spatio-temporal motion information are captured when macro and micro-expression occur. After the concatenation, the action unit 4 (Brow Lower) is triggered when a disgust emotion elicited. 
+Visually, SOFTNet activation units show our intuition to concatenate the optical flow features (u, v, ε) from three-stream. The spatio-temporal motion information is captured when macro and micro-expression occur. After the concatenation, action unit 4 (Brow Lower) is triggered when a disgust emotion is elicited. 
 
 ## Reproduce the results for SOFTNet approach
-The complete code is shown the in Jupyter Notebook script for reader to have a better understanding.
+The complete code is shown in the Jupyter Notebook script for the reader to have a better understanding.
 
 <b>Step 1)</b> Download datasets, CAS(ME)<sup>2</sup> (CASME_sq) and SAMM Long Videos (SAMMLV) and placed in the structure as follows:
 >├─Extraction_Preprocess.ipynb <br>
@@ -61,9 +61,9 @@ The complete code is shown the in Jupyter Notebook script for reader to have a b
 <blockquote> Open the SOFTNet_Spotting.ipynb and run the codes follow the instruction given inside. The evaluation for TP, FP, FN, F1-Score is returned at the last piece of code. </blockquote>
 
 ### Note for pre-trained weights
-The pre-trained weights for CAS(ME)<sup>2</sup >and SAMM Long Videos with macro and micro-expression separately are located under folder SOFTNet_Weights. You may load the weights at SOFTNet_Spotting.ipynb for evaluation. However, the result is slightly different with the result given in table shown above.
+The pre-trained weights for CAS(ME)<sup>2</sup >and SAMM Long Videos with macro and micro-expression separately are located under folder SOFTNet_Weights. You may load the weights at SOFTNet_Spotting.ipynb for evaluation. However, the result is slightly different from the result given in the table shown above.
 
-
+##### Please email me at genbing67@gmail.com if you have any inquiries or issues.
 
 
 
