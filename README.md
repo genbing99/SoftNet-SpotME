@@ -22,11 +22,11 @@ SAMM Long Videos - http://www2.docm.mmu.ac.uk/STAFF/M.Yap/dataset.php
 ## Results
 ### Evaluation
 Comparison between the proposed approaches against baseline and state-of-the-art approaches in Third Facial Micro-Expression Grand Challenge (MEGC 2020) in terms of F1-Score:
-<img src='images/result.PNG' width=900 height=200>
+<!-- <img src='images/result.PNG' width=900 height=200> -->
 
 ### Visualization
 Samples visual results for SOFTNet: </br></br>
-<img src='images/teaser.PNG' width=500 height=200>
+<!-- <img src='images/teaser.PNG' width=500 height=200> -->
 
 ## Discussion
 The proposed SOFTNet approach outperforms other methods on CAS(ME)<sup>2</sup> while ranked second on SAMM Long Videos. To better justify the effectiveness of the SOFTNet approach, we experimented with a similar framework but without SOFTNet, the results show that the framework with SOFTNet is much more efficient overall.
