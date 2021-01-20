@@ -1,6 +1,6 @@
 # mAP: Mean Average Precision
 
-The package is extended from https://github.com/bes-dev/mean_average_precision for the purposes of computing:
+The package is extended from https://github.com/bes-dev/mean_average_precision for the purposes of calculate:
 
 <ul>
   <li> TP - True Positive which measures the amounts that the model <b>correctly</b> predicts macro- or micro-expression samples.  </li>
