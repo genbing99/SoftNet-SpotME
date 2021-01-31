@@ -83,7 +83,7 @@ The step-by-step codes with explaination are provided here for a better understa
 
 <blockquote> Open the SOFTNet_Spotting.ipynb and run the codes follow the instruction given inside. The evaluation for TP, FP, FN, F1-Score is returned at the last piece of code. </blockquote>
 
-### Note for pre-trained weights
+## Note for pre-trained weights
 The pre-trained weights for CAS(ME)<sup>2</sup >and SAMM Long Videos with macro and micro-expression separately are located under folder SOFTNet_Weights. You may load the weights at SOFTNet_Spotting.ipynb for evaluation. However, the result is slightly different from the result given in the table shown above.
 
 ##### Please email me at genbing67@gmail.com if you have any inquiries or issues.
