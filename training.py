@@ -238,7 +238,7 @@ def training(X, y, groupsLabel, dataset_name, expression_type, final_samples, k,
         TP, FP, FN = evaluation(preds, gt, total_gt, metric_fn)
         
         print('Done Subject', subject_count)
-        return TP, FP, FN, metric_fn
+    return TP, FP, FN, metric_fn
 
 def final_evaluation(TP, FP, FN, metric_fn):
     precision = TP/(TP+FP)
