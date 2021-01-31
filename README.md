@@ -34,7 +34,6 @@ The proposed SOFTNet approach outperforms other methods on CAS(ME)<sup>2</sup> w
 Visually, SOFTNet activation units show our intuition to concatenate the optical flow features (u, v, ε) from three-stream. The spatio-temporal motion information is captured when macro and micro-expression occur. After the concatenation, action unit 4 (Brow Lower) is triggered when a disgust emotion is elicited. 
 
 ## Reproduce the results for SOFTNet approach (with python script)
-The complete code is shown in the Jupyter Notebook script for the reader to have a better understanding.
 
 <b>Step 1)</b> Download datasets, CAS(ME)<sup>2</sup> (CASME_sq) and SAMM Long Videos (SAMMLV) and placed in the structure as follows:
 >├─SOFNet_Weights <br>
@@ -71,6 +70,8 @@ Open main.py, change the dataset name and expression type for evaluation.
 ``` python main.py ```
 
 ## Reproduce the results for SOFTNet approach (with Jupyter Notebook)
+
+The step-by-step codes with explaination are provided here for a better understanding.
 
 <b>Step 1)</b> Similar to the step 1 with python script.
 
