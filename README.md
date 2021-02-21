@@ -28,7 +28,7 @@ Comparison between the proposed approaches against baseline and state-of-the-art
 Samples visual results for SOFTNet: </br></br>
 <img src='images/teaser.PNG' width=500 height=200>
 
-## Discussion
+### Discussion
 The proposed SOFTNet approach outperforms other methods on CAS(ME)<sup>2</sup> while ranked second on SAMM Long Videos. To better justify the effectiveness of the SOFTNet approach, we experimented with a similar framework but without SOFTNet, the results show that the framework with SOFTNet is much more efficient overall.
 
 Visually, SOFTNet activation units show our intuition to concatenate the optical flow features (u, v, ε) from three-stream. The spatio-temporal motion information is captured when macro and micro-expression occur. After the concatenation, action unit 4 (Brow Lower) is triggered when a disgust emotion is elicited. 
