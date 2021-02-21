@@ -22,7 +22,7 @@ SAMM Long Videos - http://www2.docm.mmu.ac.uk/STAFF/M.Yap/dataset.php
 ## Results
 ### Evaluation
 Comparison between the proposed approaches against baseline and state-of-the-art approaches in Third Facial Micro-Expression Grand Challenge (MEGC 2020) in terms of F1-Score:
-<!-- <img src='images/result.PNG' width=900 height=200> -->
+<img src='images/result.PNG' width=900 height=200>
 
 ### Visualization
 Samples visual results for SOFTNet: </br></br>
