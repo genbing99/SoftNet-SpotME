@@ -63,7 +63,7 @@ Visually, SOFTNet activation units show our intuition to concatenate the optical
 
 Open main.py, change the dataset name and expression type for evaluation.
 -->
-<b>Step 4)</b> SOFTNet Training and Evaluation
+<b>Step 3)</b> SOFTNet Training and Evaluation
 
 ``` python main.py ```
 
