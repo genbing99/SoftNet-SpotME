@@ -60,15 +60,22 @@ Visually, SOFTNet activation units show our intuition to concatenate the optical
 <b>Step 2)</b> Installation of packages using pip
 
 ``` pip install -r requirements.txt ```
-
+<!--
 <b>Step 3)</b> Dataset setting
 
 Open main.py, change the dataset name and expression type for evaluation.
-
+-->
 <b>Step 4)</b> SOFTNet Training and Evaluation
 
 ``` python main.py ```
 
+#### Note for parameter settings <br>
+&nbsp; --dataset_name (CASME_sq or SAMMLV) <br>
+&nbsp; --expression_type (micro-expression or macro-expression) <br>
+&nbsp; --train (True or False) <br>
+&nbsp; --show_plot (True or False) <br>
+
+<!--
 ## Reproduce the results for SOFTNet approach (with Jupyter Notebook)
 
 The step-by-step codes with explaination are provided here for a better understanding.
@@ -82,9 +89,13 @@ The step-by-step codes with explaination are provided here for a better understa
 <b>Step 3)</b> SOFTNet and Spotting
 
 <blockquote> Open the SOFTNet_Spotting.ipynb and run the codes follow the instruction given inside. The evaluation for TP, FP, FN, F1-Score is returned at the last piece of code. </blockquote>
-
+-->
 ## Note for pre-trained weights
 The pre-trained weights for CAS(ME)<sup>2</sup >and SAMM Long Videos with macro and micro-expression separately are located under folder SOFTNet_Weights. You may load the weights at SOFTNet_Spotting.ipynb for evaluation. However, the result is slightly different from the result given in the table shown above.
+
+## Link to research paper
+
+https://arxiv.org/abs/2106.06489
 
 ##### Please email me at genbing67@gmail.com if you have any inquiries or issues.
 
