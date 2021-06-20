@@ -38,8 +38,6 @@ Visually, SOFTNet activation units show our intuition to concatenate the optical
 <b>Step 1)</b> Download datasets, CAS(ME)<sup>2</sup> (CASME_sq) and SAMM Long Videos (SAMMLV) and placed in the structure as follows:
 >├─SOFNet_Weights <br>
 >├─Utils <br>
->├─Extraction_Preprocess.ipynb <br>
->├─SOFTNet_Spotting.ipynb <br>
 >├─extraction_preprocess.py <br>
 >├─load_images.py <br>
 >├─load_label.py <br>
