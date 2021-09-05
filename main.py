@@ -21,7 +21,7 @@ def main(config):
     crop_images(dataset_name) 
     print("\n ------ Loading Images ------")
     images, subjects, subjectsVideos = load_images(dataset_name)
-    images = pickle.load( open( dataset_name + "_images_crop.pkl", "rb" ) )
+    #images = pickle.load( open( dataset_name + "_images_crop.pkl", "rb" ) )
     
     # Load Ground Truth Label
     print('\n ------ Loading Excel ------')
