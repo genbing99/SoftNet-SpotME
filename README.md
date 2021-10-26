@@ -93,7 +93,7 @@ The pre-trained weights for CAS(ME)<sup>2</sup >and SAMM Long Videos with macro 
 
 ## Link to research paper
 
-https://arxiv.org/abs/2106.06489
+If you find this work useful, please cite the paper: https://arxiv.org/abs/2106.06489
 
 ##### Please email me at genbing67@gmail.com if you have any inquiries or issues.
 
