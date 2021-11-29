@@ -93,7 +93,19 @@ The pre-trained weights for CAS(ME)<sup>2</sup >and SAMM Long Videos with macro 
 
 ## Link to research paper
 
-If you find this work useful, please cite the paper: https://arxiv.org/abs/2106.06489
+If you find this work useful, please cite the paper:
+https://arxiv.org/pdf/2106.06489.pdf
+
+@INPROCEEDINGS{9506349, <br>
+  author={Liong, Gen-Bing and See, John and Wong, Lai-Kuan}, <br>
+  booktitle={2021 IEEE International Conference on Image Processing (ICIP)},  <br>
+  title={Shallow Optical Flow Three-Stream CNN For Macro- And Micro-Expression Spotting From Long Videos},  <br>
+  year={2021}, <br>
+  volume={}, <br> 
+  number={}, <br>
+  pages={2643-2647}, <br>
+  doi={10.1109/ICIP42928.2021.9506349} <br>
+ } <br>
 
 ##### Please email me at genbing67@gmail.com if you have any inquiries or issues.
 
